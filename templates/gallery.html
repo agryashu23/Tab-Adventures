@@ -1,0 +1,160 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <title>TAB Adventures</title>
+    <link rel="icon" href="{% static 'images/favicon.jpg.jpeg' %}" sizes="32x32" type="image/jpg">
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="Road Travel web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web Designs" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--// Meta tag Keywords -->
+
+    <!-- Recent Trips section css files-->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}" type="text/css" media="all">
+    <link href="{% static 'css/owl.theme.css' %}" rel="stylesheet">
+    <!-- //Recent Trips section css files -->
+
+    <!-- Testimonials -->
+    <link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" />
+    <!-- //Testimonials -->
+
+    <!-- css files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" /> <!-- Style-CSS -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}"> <!-- Font-Awesome-Icons-CSS -->
+    <link rel="stylesheet" href="{% static 'css/yashu.css' %}">
+    <script src="{% static 'js/yashu.js' %}"></script>
+    <script src="{% static 'js/yash.js' %}"></script>
+    <script src="{% static 'js/plan.js' %}"></script>
+    <!-- <link rel="stylesheet" href="{% static 'css/bookingstyle.css' %}"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+    <!-- //css files -->
+
+    <!-- web-fonts -->
+    <link
+        href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+
+    <link
+        href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+        </head>
+        <style>
+            body{
+                background-color: white;
+            }
+            div.gallery {
+                border: 1px solid #ccc;
+              }
+              
+              div.gallery:hover {
+                border: 1px solid #777;
+              }
+              
+              .gallery img {
+                width: 450px;
+                height:300px;
+              }
+              
+              div.desc {
+                padding: 15px;
+                text-align: center;
+              }
+              
+              * {
+                box-sizing: border-box;
+              }
+              
+              .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 23.99999%;
+                margin-top: 50px;
+              }
+              
+              @media only screen and (max-width: 700px) {
+                .responsive {
+                  width: 49.99999%;
+                  margin: 6px 0;
+                }
+              }
+              
+              @media only screen and (max-width: 500px) {
+                .responsive {
+                  width: 50%;
+                }
+              }
+              
+              .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+        </style>
+        <body>
+            <div class="header">
+                <nav class="navbar navbar-default">
+                    <div class="left">
+                        <img src="{%static 'images/icon3.jpeg' %}" alt="logo" href="#about">
+                    </div>
+                    
+        
+                    
+                    <!-- navbar-header -->
+                    
+                        <ul class="apna">
+        
+                            <li><a href="okok" class="hvr-underline-from-center scroll">Home</a></li>
+                            <li><a href="entry/about" class="hvr-underline-from-center scroll">About</a></li>
+        
+        
+        
+                            
+                            
+        
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="responsive">
+                        <div class="gallery">
+                            <img src="{%static 'images/wall.jpeg' %}" alt="Cinque Terre">
+                        </div>
+                      </div>
+                      
+                      
+                      <div class="responsive">
+                        <div class="gallery">
+                            <img src="{%static 'images/wall1.jpg' %}" alt="Forest">
+                        </div>
+                      </div>
+                      
+                      <div class="responsive">
+                        <div class="gallery">
+                            <img src="{%static 'images/tour1.jpg' %}" alt="Northern Lights">
+                        </div>
+                      </div>
+                      
+                      <div class="responsive">
+                        <div class="gallery">
+                            <img src="{%static 'images/tour2.jpg' %}" alt="Mountains">
+                        </div>
+                      </div>
+                      
+                      <div class="clearfix"></div>
+
+        
+        
+                </nav>
+            </div>
+        </body>
